@@ -1,0 +1,25 @@
+{
+    "name": "dark-plus-black",
+    "displayName": "Dark+ Black",
+    "description": "Default VS Code \"Dark+\" theme, pure black, with enhanced syntax highlight and comment styles.",
+    "publisher": "VinceSalvino",
+    "repository": {
+        "url": "https://github.com/vsalvino/dark-plus-black"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark+ Black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark+ Black-color-theme.json"
+            }
+        ]
+    }
+}

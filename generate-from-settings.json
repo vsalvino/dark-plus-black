@@ -1,0 +1,136 @@
+{
+    /*
+    Original settings in VS Code user settings.json,
+    then Command Palette > Generate Theme
+    */
+
+    "workbench.colorCustomizations": {
+        "[Default Light+]": {
+            "editor.foreground": "#000000",
+            "editor.background": "#ffffff"
+        },
+        "[Default Dark+]": {
+            // MAIN BACKGROUNDS
+            // purple matte  #181020
+            // teal matte    #101820
+            // emerald matte #102018
+            // indigo matte  #141020
+            // navy matte    #101420
+            // amber matte   #201410
+            // blue matte    #101020
+            // green matte   #102010
+            // red matte     #201010
+            // purple ink    #180020
+            // teal ink      #001820
+            // emerald ink   #002018
+            // indigo ink    #0a0020
+            // navy ink      #000a20
+            // amber ink     #200a00
+            // blue ink      #000020
+            // green ink     #002000
+            // red ink       #200000
+
+            "activityBar.background": "#000",
+            "editor.background": "#000",
+            "statusBar.background": "#000",
+            "statusBar.noFolderBackground": "#000",
+            "titleBar.activeBackground": "#000",
+            "sideBar.background": "#000",
+            "menu.background": "#000",
+            "editorWidget.background": "#000",
+            "editorWidget.border": "#333",
+
+            // "menu.selectionBackground": "#373277",
+            // "editor.selectionBackground": "#373277",
+            // "menubar.selectionBackground": "#373277",
+            // "peekViewResult.selectionBackground": "#373277",
+            // "editorSuggestWidget.selectedBackground": "#373277",
+            // "activityBarBadge.background": "#373277",
+            // "list.focusBackground": "#373277",
+            // "list.activeSelectionBackground": "#373277",
+            // "button.background": "#373277",
+
+            // MAIN FOREGROUNDS
+            "activityBar.foreground": "#ffffffcc",
+            "activityBar.activeBorder": "#ffffff00",
+            //"activityBar.inactiveForeground": "#ffffff88",
+            //"editor.foreground": "#ffffffcc",
+            "sideBar.foreground": "#ffffff88",
+            "statusBar.foreground": "#ffffff66",
+            "titleBar.activeForeground": "#ffffff88",
+            "list.inactiveSelectionForeground": "#ffffffaa",
+            "list.focusForeground": "#ffffffaa",
+            // "gitDecoration.untrackedResourceForeground": "#50a070",
+            // "gitDecoration.modifiedResourceForeground": "#7060b0",
+
+            // RELATIVE COLORS
+            "editor.lineHighlightBorder": "#00000000",
+            "editor.selectionHighlightBackground": "#ffffff28",
+            "editorIndentGuide.background": "#ffffff00",
+            "editorIndentGuide.activeBackground": "#ffffff28",
+            "editorBracketMatch.background": "#ffffff28",
+            "editorBracketMatch.border": "#00000000",
+            "editorLineNumber.activeForeground": "#ffffffcc",
+            "editorLineNumber.foreground": "#ffffff44",
+            "editorRuler.foreground": "#ffffff28",
+            "input.background": "#ffffff11",
+            "input.border": "#00000000",
+            "input.foreground": "#ffffffff",
+            "input.placeholderForeground": "#ffffff66",
+            "focusBorder": "#ffffff33",
+            "selection.background": "#ffffff44",
+            "editorGroupHeader.tabsBackground": "#ffffff00",
+            "tab.activeBackground": "#ffffff22",
+            "tab.inactiveBackground": "#00000000",
+            "list.inactiveSelectionBackground": "#ffffff22"
+        }
+    },
+
+    /*** Syntax highlighting styles ***/
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                // Make comments dim and italic.
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#ffffff66",
+                        "fontStyle": "italic"
+                    }
+                },
+                // Make block or doc comments brighter and italic.
+                {
+                    "scope": [
+                        "string.quoted.docstring.multi",
+                        "comment.block"
+                    ],
+                    "settings": {
+                        "foreground": "#ffffffaa",
+                        "fontStyle": "italic"
+                    }
+                },
+                // Keep start and end of comment non-italic.
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "punctuation.definition.string.begin",
+                        "punctuation.definition.string.end"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                // Underline class definitions.
+                {
+                    "scope": [
+                        "entity.name.type",
+                        "entity.other.inherited-class",
+                    ],
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                }
+            ]
+        }
+    }
+}
