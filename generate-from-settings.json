@@ -5,10 +5,6 @@
     */
 
     "workbench.colorCustomizations": {
-        "[Default Light+]": {
-            "editor.foreground": "#000000",
-            "editor.background": "#ffffff"
-        },
         "[Default Dark+]": {
             // MAIN BACKGROUNDS
             // purple matte  #181020

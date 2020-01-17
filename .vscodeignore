@@ -1,4 +1,6 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+generate-from-settings.json
+screenshot.png
 vsc-extension-quickstart.md
