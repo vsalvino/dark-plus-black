@@ -1,6 +1,6 @@
 {
-    "$schema": "vscode://schemas/color-theme",
-    "name": "Dark+ Black",
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark+ Black",
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#000000",
@@ -26,6 +26,7 @@
 		"input.border": "#00000000",
 		"input.foreground": "#ffffff",
 		"input.placeholderForeground": "#ffffff66",
+		"inputOption.activeBackground": "#ffffff33",
 		"list.dropBackground": "#383b3d",
 		"list.focusForeground": "#ffffffaa",
 		"list.inactiveSelectionBackground": "#ffffff22",
@@ -74,12 +75,6 @@
 			"scope": "header",
 			"settings": {
 				"foreground": "#000080"
-			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#6A9955"
 			}
 		},
 		{
@@ -590,7 +585,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#ffffff66",
+				"foreground": "#777777",
 				"fontStyle": "italic"
 			}
 		},
@@ -600,7 +595,7 @@
 				"comment.block"
 			],
 			"settings": {
-				"foreground": "#ffffffaa",
+				"foreground": "#AAAAAA",
 				"fontStyle": "italic"
 			}
 		},

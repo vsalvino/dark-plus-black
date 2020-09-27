@@ -6,7 +6,7 @@
     "repository": {
         "url": "https://github.com/vsalvino/dark-plus-black"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -22,5 +22,8 @@
                 "path": "./themes/Dark+ Black-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.80.0"
     }
 }

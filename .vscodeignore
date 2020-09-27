@@ -4,3 +4,4 @@
 generate-from-settings.json
 screenshot.png
 vsc-extension-quickstart.md
+node_modules/**
