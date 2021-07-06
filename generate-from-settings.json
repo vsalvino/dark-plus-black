@@ -33,8 +33,8 @@
             "titleBar.activeBackground": "#000",
             "sideBar.background": "#000",
             "menu.background": "#000",
-            "editorWidget.background": "#000",
-            "editorWidget.border": "#333",
+            "editorWidget.background": "#222",
+            "editorWidget.border": "#ffffff00",
 
             // "menu.selectionBackground": "#373277",
             // "editor.selectionBackground": "#373277",
@@ -69,11 +69,10 @@
             "editorLineNumber.activeForeground": "#ffffffcc",
             "editorLineNumber.foreground": "#ffffff44",
             "editorRuler.foreground": "#ffffff28",
-            "input.background": "#ffffff11",
-            "input.border": "#00000000",
+            "input.background": "#ffffff22",
+            "input.border": "#ffffff00",
             "input.foreground": "#ffffffff",
-            "input.placeholderForeground": "#ffffff66",
-            "focusBorder": "#ffffff33",
+            "input.placeholderForeground": "#ffffff77",
             "selection.background": "#ffffff44",
             "editorGroupHeader.tabsBackground": "#ffffff00",
             "tab.activeBackground": "#ffffff22",
@@ -90,7 +89,7 @@
                 {
                     "scope": "comment",
                     "settings": {
-                        "foreground": "#ffffff66",
+                        "foreground": "#777777",
                         "fontStyle": "italic"
                     }
                 },
@@ -101,7 +100,7 @@
                         "comment.block"
                     ],
                     "settings": {
-                        "foreground": "#ffffffaa",
+                        "foreground": "#aaaaaa",
                         "fontStyle": "italic"
                     }
                 },
