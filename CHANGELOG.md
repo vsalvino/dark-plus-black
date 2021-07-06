@@ -1,6 +1,13 @@
 Change Log
 ==========
 
+1.1.0
+-----
+
+* Increase contrast of inputs.
+* Re-generate from latest version of Dark+ theme which includes a few new UI and
+  syntax highlighting colors.
+
 1.0.2
 -----
 
