@@ -15,8 +15,8 @@ There are also a couple minor syntax highlighting enhancements including:
 Looks great with a font with pretty italics, such as:
 
 * [IBM Plex Mono](https://www.ibm.com/plex/)
+* [Cascadia Code](https://github.com/microsoft/cascadia-code)
 * [Courier Prime](https://quoteunquoteapps.com/courierprime/)
-* Consolas (proprietary)
 * Or if you're *really* classy... [Computer Modern Typewriter](https://www.checkmyworking.com/cm-web-fonts/#typewriter). Check out those italics!
 
 Links:
