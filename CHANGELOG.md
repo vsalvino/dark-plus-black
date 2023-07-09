@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+1.2.0
+-----
+
+* Re-generate based on new "Dark Modern" theme included with VS code.
+
 1.1.0
 -----
 
@@ -20,7 +25,6 @@ Change Log
 
 * Packaging updates.
 * Description and icon updates.
-
 
 1.0.0
 -----

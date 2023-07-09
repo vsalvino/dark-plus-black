@@ -1,7 +1,7 @@
 Dark+ Black
 ===========
 
-VS Code theme based on the default “Dark+” theme, modified to be pure black.
+VS Code theme based on the default “Dark Modern” theme, modified to be pure black.
 
 ![Screenshot](screenshot.png)
 

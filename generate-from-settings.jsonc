@@ -5,7 +5,7 @@
     */
 
     "workbench.colorCustomizations": {
-        "[Default Dark+]": {
+        "[Default Dark Modern]": {
             // MAIN BACKGROUNDS
             // purple matte  #181020
             // teal matte    #101820
@@ -83,13 +83,13 @@
 
     /*** Syntax highlighting styles ***/
     "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
+        "[Default Dark Modern]": {
             "textMateRules": [
                 // Make comments dim and italic.
                 {
                     "scope": "comment",
                     "settings": {
-                        "foreground": "#777777",
+                        "foreground": "#888888",
                         "fontStyle": "italic"
                     }
                 },
